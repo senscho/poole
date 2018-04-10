@@ -2,11 +2,11 @@
 permalink:           pretty
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
-paginate:            1
-baseurl:             ""
+title:               SensLog
+tagline:             "Blog of super elegant noble Sage"
+url:                 http://senscho.github.io
+# paginate:            2
+baseurl:             "/blog"
 
 # Assets
 #
@@ -17,16 +17,48 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Jihyun Cho
+  url:               https://twitter.com/sens-cho
+  email:             
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/senscho
+
+# menu items
+navbar:
+  - text: Home
+    url: 
+  - text: Posts
+    url: posts
+  - text: Tags
+    url: tags
+  - text: CV
+    url: 
+    align: right
+  - text: Twit
+    url: https://twitter.com/sens_cho
+    align: right
+    linktype: absolute
+  - text: Likn
+    url: https://www.linkedin.com/in/eecho
+    align: right
+    linktype: absolute
+  - text: Git
+    url: https://github.com/senscho
+    align: right
+    linktype: absolute
+
 
 # Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+Plugins:
+  # - jekyll-paginate
+  # - jekyll-gist
+
+exclude:
+  - README.md
+  - run_jekyll.sh
+  - LICENSE.md
+  - "*.py"
+  - "*.sh"

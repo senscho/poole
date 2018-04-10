@@ -1,0 +1,10 @@
+<div class="tagbar">
+    <ul>
+    <li>Tags:&nbsp;</li>
+{% if page.tags != empty %}
+    {% for t in page.tags %}
+    <li>&nbsp;<a href="{{ site.url }}{{ site.baseurl }}/tags/{{ t }}/"">{{ t }}</a>&nbsp;</li>
+    {% endfor %}
+{% endif %}
+    </ul>
+</div>

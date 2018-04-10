@@ -1,0 +1,40 @@
+// Navbar
+//
+// Super small header above the content for site name and short description.
+
+.navbar ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+  display:inline-block;
+  width:100%;
+  border-top: 1px solid $gray-2;
+  border-bottom: 1px solid $gray-2;
+
+  background-color: $gray-1;
+
+  & li a {
+    margin:0;
+    text-align:center;
+    float:left;
+    /*min-width:7rem;*/
+    padding-left: .5rem;
+    padding-right: .5rem;
+    color: $gray-4;
+    text-decoration:none;
+
+    &.current {
+      background-color: #dddfdd;
+      /*color: $yellow;*/
+    }
+
+    &.right {
+      float:right;
+    }
+
+    &:hover {
+      background-color: $gray-3;
+      color: #fff;
+    }
+  }
+}

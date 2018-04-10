@@ -1,0 +1,15 @@
+<div class="navbar">
+    <ul>
+{% for item in site.navbar %}
+    {% assign current = nil %}
+    {% if page.url == item.url %}
+        {% assign current = "current" %} 
+    {% endif %}
+    {% if item.linktype == "absolute" %}
+    <li><a href="{{ item.url }}" class="{{ item.align }} {{ current }}">{{ item.text }}</a></li>
+    {% else %}
+    <li><a href="{{site.url}}{{site.baseurl}}/{{ item.url }}" class="{{ item.align }} {{ current }}">{{ item.text }}</a></li>
+    {% endif %}
+{% endfor %}
+    </ul>
+</div>

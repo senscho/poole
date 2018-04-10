@@ -1,0 +1,9 @@
+<ul class="tagcloud">
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+    {% assign t = tag | first %}
+    <li>
+      <a href="{{ site.url }}{{ site.baseurl }}/tags/{{ t }}">{{ t }}</a>
+    </li>
+  {% endfor %}
+</ul>
