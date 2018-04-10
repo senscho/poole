@@ -1,30 +1,17 @@
 ---
 layout: page
 title: About
+permalink: /about/
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+### Now
 
-In the novel, *The Strange Case of Dr. Jekyll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+I live in San Francisco Bay Area. I'm an optical sensing hardware engineer at a secret company. I am in charge of defining a custom silicon for optical sensing. Please refer to my CV and LinkedIn page for more information.
 
-There are currently two themes built on Poole:
+### Past
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I received my Ph.D. in Electrical Engineering from University of Michigan, Ann Arbor. I received my M.S and B.S. in Electrical Engineering from Yonsei University, Seoul, South Korea.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+My research in graduate study was mixed-signal circuit design for image sensor applications. My works include time-of-flight camera, fluoresence lifetime imaging, wide dynamic range camera, low power image sensors and smart image sensors with mixed-signal image processing.
 
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+I was an instructor in Electrical Engineering at Korea Air Force Academy.

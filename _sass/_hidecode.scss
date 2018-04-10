@@ -1,0 +1,7 @@
+article .code_cell {
+  display: block;
+
+  &.hide_code .input, &.hide_code .output_prompt {
+      display: none;
+  }
+}

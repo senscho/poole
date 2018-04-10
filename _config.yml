@@ -50,6 +50,16 @@ navbar:
     align: right
     linktype: absolute
 
+excerpt_separator: "<!-- more -->"  # default is \n\n. not liquid friendly
+
+defaults:
+  -
+    # scope:
+    #   path: ""
+    #   type: "pages"
+    values:
+      use_math: true
+      hide_code: false  
 
 # Gems
 Plugins:
@@ -62,3 +72,5 @@ exclude:
   - LICENSE.md
   - "*.py"
   - "*.sh"
+  - "_ipynbs/*"
+

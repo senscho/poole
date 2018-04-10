@@ -2,6 +2,21 @@
 //
 // Headings, body text, lists, and other misc typographic elements.
 
+a.anchor-link:link {
+    text-decoration: none;
+    padding: 0 20px;
+    visibility: hidden
+}
+
+h1:hover .anchor-link,
+h2:hover .anchor-link,
+h3:hover .anchor-link,
+h4:hover .anchor-link,
+h5:hover .anchor-link,
+h6:hover .anchor-link {
+    visibility: visible
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: 600;

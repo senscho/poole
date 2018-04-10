@@ -3,6 +3,7 @@ _gh_pages
 _site
 .ruby-version
 .sass-cache
+_ipynbs/.ipynb_checkpoints/*
 
 # Numerous always-ignore extensions
 *.diff
