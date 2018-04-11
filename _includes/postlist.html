@@ -2,7 +2,7 @@
   {% assign sorted_posts = site.posts | sort: 'post_date' %} <!-- | reverse %} -->
   {% for post in sorted_posts %}
     <li> {{ post.date | date: "%d %b %Y" }},
-      <a href="{{ site.url }}{{ site.baseurl }}/{{ post.url }}">{{ post.title | truncate: 58 }}</a>
+      <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title | truncate: 58 }}</a>
     </li>
   {% endfor %}
 </ul>

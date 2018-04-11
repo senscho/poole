@@ -7,11 +7,14 @@
   padding:0;
   list-style-type: none;
   display:inline-block;
+  /*width:100%;*/
+  background-color: $gray-2;
   float:right;
-
+  /*text-align:right;*/
+  
   & li {
     margin:0;
-    float:left;
+    /*float:right;*/
     color: $gray-4;
     & a {
       text-decoration:underline;
